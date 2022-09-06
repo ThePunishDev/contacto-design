@@ -8,99 +8,101 @@
         <title>Contacto design</title>
 
         <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
         
         <link rel="stylesheet" href="./css/style.css" />
     </head>
 
 <!-- ENCABEZADO | NAVBAR -->
-    <body>
+    <body class="text-bg-success">
         <header>
-            <nav class="navbar">
-                <div>
-                    <a href="./index.html"><img src="./assets/images/logo.jpg" class="navbar__logo" alt="Este es mi logo principal" /></a>
-                </div>
-
-                <div>
-                    <ul>
-
-                        <li class="navbar__item">
-                            <a href="./index.html">INICIO</a>
-                        </li>
-
-                        <li class="navbar__item">
-                            <a href="./pages/servicios.html">SERVICIOS</a>
-                        </li>
-                            
-                        <li class="navbar__item">
-                            <a href="./pages/portfolio.html">PORTFOLIO</a>
-                        </li>
-        
-                        <li class="navbar__item">
-                            <a href="./pages/equipo.html">EQUIPO</a>
-                        </li>
-        
-                        <li class="navbar__item">
-                            <a href="./pages/contacto.html">CONTACTO</a>
-                        </li>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="./assets/images/logo.jpg" width="50px" height="50px" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/servicios.html">SERVICIOS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/portfolio.html">PORTFOLIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/equipo.html">EQUIPO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                      </li>
                     </ul>
-                    
-                    <span>🍔</span>
+                  </div>
                 </div>
             </nav>
         </header>
 
 <!-- CUERPO PRINCIPAL -->
-        <main class="main">
-            <section class="main__section">
+        <main class="container-fluid">
+            <section class="row d-flex justify-content-center align-items-center mt-3">
+
                 <div>
-                    <img src="./assets/images/principal.jpg" class="section__img" alt="Imagen de la oficina" />
+                    <img class="mw-100" src="./assets/images/principal.jpg" alt="Imagen de la oficina">
+                </div>
+                               
+                <div class="col-md-5">
+                    <h1 class="text-white display-1 p-3 m-3 text-uppercase text-center fw-bold">Contacto design</h1>
                 </div>
 
-                <div class="section__text">
-                    <div>
-                        <h1 class="section__titulo">Contacto design</h1>
-                    </div>
-
-                    <div class="section__parrafo">
-                        <p>Trabajamos con estrategias claras, alcanzables y competitivas que eleven su identidad / marca dentro del mercado, junto con un contenido original que fortalezca su presencia y cualidades en la industria.</p>
-                    </div>
+                <div class="col-md-1">
                 </div>
+
+                <div class="col-md-5 text-white fs-1 p-3 m-2">
+                    <p class="parrafo">Trabajamos con estrategias claras, alcanzables y competitivas que eleven su identidad / marca dentro del mercado, junto con un contenido original que fortalezca su presencia y cualidades en la industria.</p>
+                </div>
+                
             </section>
         </main>
 
 <!-- FOOTER -->
-        <footer class="footer">
+        <div class="container-fluid bg-dark text-center">
             
-            <div class="footer__invitacion">
-                <h2>Te invitamos a seguirnos en nuestras redes sociales</h2>   
+            <div class="text-center">
+                <h2 class="fs-3 pt-5 pb-4">¡Te invitamos a seguirnos en nuestras redes sociales!</h2>   
             </div>
 
-            <div class="footer__redes">
+            <div class="d-flex flex-row mb-5 justify-content-center">
                 <a href="https://www.facebook.com">
-                    <img src="./assets/images/social/facebook.png" class="redes__img" alt="Logo de Facebook" />
+                    <img class="redes my-4 mx-2" src="./assets/images/social/facebook.png" alt="Logo de Facebook" />
                 </a>
 
                 <a href="https://www.instagram.com">
-                    <img src="./assets/images/social/instagram.png" class="redes__img" alt="Logo de Instagram" />
+                    <img class="redes my-4 mx-2" src="./assets/images/social/instagram.png" alt="Logo de Instagram" />
                 </a>
                 
                 <a href="https://www.twitter.com">
-                    <img src="./assets/images/social/twitter.png" class="redes__img" alt="Logo de Twitter" />
+                    <img class="redes my-4 mx-2" src="./assets/images/social/twitter.png" alt="Logo de Twitter" />
                 </a>
 
                 <a href="https://www.twitch.tv/">
-                    <img src="./assets/images/social/twitch.png" class="redes__img" alt="Logo de Twitch" />
+                    <img class="redes my-4 mx-2" src="./assets/images/social/twitch.png" alt="Logo de Twitch" />
                 </a>
 
                 <a href="https://www.youtube.com/">
-                    <img src="./assets/images/social/youtube.png" class="redes__img" alt="Logo de Youtube" />
+                    <img class="redes my-4 mx-2" src="./assets/images/social/youtube.png" alt="Logo de Youtube" />
                 </a>
             </div>
 
-            <div class="footer__copyright">
-                <h3>Creado por The PunishDev ® | Todos los derechos reservados.</h3>
+            <div class="text-center pb-4">
+                <h3 class="fs-6">Creado por The PunishDev ® | Todos los derechos reservados.</h3>
             </div>
 
-        </footer>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 </html>
